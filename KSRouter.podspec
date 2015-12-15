@@ -8,15 +8,14 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/krin-san/KSRouter"
-  #s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Alexandr Chaplyuk" => "krin.chap@gmail.com" }
   s.social_media_url   = "https://vk.com/krin_san"
 
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://github.com/krin-san/KSRouter.git", :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/krin-san/KSRouter.git', :tag => "v#{s.version}" }
   s.source_files  = "KSRouter", "KSRouter/*.{h,m}"
   s.exclude_files = "KSRouter/Exclude"
 
