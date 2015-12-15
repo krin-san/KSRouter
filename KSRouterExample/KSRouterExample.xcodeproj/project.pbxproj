@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33A995551C1FFC5F0019C180 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A995541C1FFC5F0019C180 /* main.m */; };
+		33A995581C1FFC5F0019C180 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A995571C1FFC5F0019C180 /* AppDelegate.m */; };
+		33A9955E1C1FFC5F0019C180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A9955C1C1FFC5F0019C180 /* Main.storyboard */; };
+		33A995601C1FFC5F0019C180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A9955F1C1FFC5F0019C180 /* Assets.xcassets */; };
+		33A995631C1FFC5F0019C180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A995611C1FFC5F0019C180 /* LaunchScreen.storyboard */; };
+		33A995711C1FFD940019C180 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A995701C1FFD940019C180 /* MainViewController.m */; };
+		33A995731C1FFE2F0019C180 /* Sidebar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A995721C1FFE2F0019C180 /* Sidebar.storyboard */; };
+		33A995761C1FFFED0019C180 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A995751C1FFFED0019C180 /* SidebarViewController.m */; };
+		33A995791C2000110019C180 /* SidebarRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A995781C2000110019C180 /* SidebarRouter.m */; };
+		33A995851C200E9E0019C180 /* KSRouterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A9957E1C200E9E0019C180 /* KSRouterItem.m */; };
+		33A995861C200E9E0019C180 /* KSRouterNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A995801C200E9E0019C180 /* KSRouterNavigationController.m */; };
+		33A995871C200E9E0019C180 /* KSRouterSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A995821C200E9E0019C180 /* KSRouterSegue.m */; };
+		33A995881C200E9E0019C180 /* UIViewController+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A995841C200E9E0019C180 /* UIViewController+Router.m */; };
+		33F269981C201F2A0032BA8C /* SidebarItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F269971C201F2A0032BA8C /* SidebarItems.m */; };
+		33F2699B1C2027770032BA8C /* SidebarEmbedPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F2699A1C2027770032BA8C /* SidebarEmbedPanel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33A995501C1FFC5F0019C180 /* KSRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A995541C1FFC5F0019C180 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33A995561C1FFC5F0019C180 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33A995571C1FFC5F0019C180 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33A9955D1C1FFC5F0019C180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33A9955F1C1FFC5F0019C180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33A995621C1FFC5F0019C180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33A995641C1FFC5F0019C180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A9956F1C1FFD940019C180 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		33A995701C1FFD940019C180 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		33A995721C1FFE2F0019C180 /* Sidebar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sidebar.storyboard; sourceTree = "<group>"; };
+		33A995741C1FFFED0019C180 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		33A995751C1FFFED0019C180 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		33A995771C2000110019C180 /* SidebarRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarRouter.h; sourceTree = "<group>"; };
+		33A995781C2000110019C180 /* SidebarRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarRouter.m; sourceTree = "<group>"; };
+		33A9957D1C200E9E0019C180 /* KSRouterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSRouterItem.h; sourceTree = "<group>"; };
+		33A9957E1C200E9E0019C180 /* KSRouterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSRouterItem.m; sourceTree = "<group>"; };
+		33A9957F1C200E9E0019C180 /* KSRouterNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSRouterNavigationController.h; sourceTree = "<group>"; };
+		33A995801C200E9E0019C180 /* KSRouterNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSRouterNavigationController.m; sourceTree = "<group>"; };
+		33A995811C200E9E0019C180 /* KSRouterSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSRouterSegue.h; sourceTree = "<group>"; };
+		33A995821C200E9E0019C180 /* KSRouterSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSRouterSegue.m; sourceTree = "<group>"; };
+		33A995831C200E9E0019C180 /* UIViewController+Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Router.h"; sourceTree = "<group>"; };
+		33A995841C200E9E0019C180 /* UIViewController+Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Router.m"; sourceTree = "<group>"; };
+		33F269961C201F2A0032BA8C /* SidebarItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarItems.h; sourceTree = "<group>"; };
+		33F269971C201F2A0032BA8C /* SidebarItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarItems.m; sourceTree = "<group>"; };
+		33F269991C2027770032BA8C /* SidebarEmbedPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarEmbedPanel.h; sourceTree = "<group>"; };
+		33F2699A1C2027770032BA8C /* SidebarEmbedPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarEmbedPanel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33A9954D1C1FFC5F0019C180 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33A995471C1FFC5F0019C180 = {
+			isa = PBXGroup;
+			children = (
+				33A995521C1FFC5F0019C180 /* KSRouterExample */,
+				33A995511C1FFC5F0019C180 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33A995511C1FFC5F0019C180 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33A995501C1FFC5F0019C180 /* KSRouter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33A995521C1FFC5F0019C180 /* KSRouterExample */ = {
+			isa = PBXGroup;
+			children = (
+				33A9957C1C200E9E0019C180 /* KSRouter */,
+				33A9956D1C1FFCF90019C180 /* AppDelegate */,
+				33A9956C1C1FFCF00019C180 /* UI */,
+				33A9955F1C1FFC5F0019C180 /* Assets.xcassets */,
+				33A995641C1FFC5F0019C180 /* Info.plist */,
+				33A995531C1FFC5F0019C180 /* Supporting Files */,
+			);
+			path = KSRouterExample;
+			sourceTree = "<group>";
+		};
+		33A995531C1FFC5F0019C180 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33A995541C1FFC5F0019C180 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33A9956C1C1FFCF00019C180 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				33A995611C1FFC5F0019C180 /* LaunchScreen.storyboard */,
+				33A9955C1C1FFC5F0019C180 /* Main.storyboard */,
+				33A9956F1C1FFD940019C180 /* MainViewController.h */,
+				33A995701C1FFD940019C180 /* MainViewController.m */,
+				33A9956E1C1FFD420019C180 /* Sidebar */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		33A9956D1C1FFCF90019C180 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				33A995561C1FFC5F0019C180 /* AppDelegate.h */,
+				33A995571C1FFC5F0019C180 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		33A9956E1C1FFD420019C180 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				33A995721C1FFE2F0019C180 /* Sidebar.storyboard */,
+				33A995741C1FFFED0019C180 /* SidebarViewController.h */,
+				33A995751C1FFFED0019C180 /* SidebarViewController.m */,
+				33A995771C2000110019C180 /* SidebarRouter.h */,
+				33A995781C2000110019C180 /* SidebarRouter.m */,
+				33F269961C201F2A0032BA8C /* SidebarItems.h */,
+				33F269971C201F2A0032BA8C /* SidebarItems.m */,
+				33F269991C2027770032BA8C /* SidebarEmbedPanel.h */,
+				33F2699A1C2027770032BA8C /* SidebarEmbedPanel.m */,
+			);
+			name = Sidebar;
+			sourceTree = "<group>";
+		};
+		33A9957C1C200E9E0019C180 /* KSRouter */ = {
+			isa = PBXGroup;
+			children = (
+				33A9957D1C200E9E0019C180 /* KSRouterItem.h */,
+				33A9957E1C200E9E0019C180 /* KSRouterItem.m */,
+				33A9957F1C200E9E0019C180 /* KSRouterNavigationController.h */,
+				33A995801C200E9E0019C180 /* KSRouterNavigationController.m */,
+				33A995811C200E9E0019C180 /* KSRouterSegue.h */,
+				33A995821C200E9E0019C180 /* KSRouterSegue.m */,
+				33A995831C200E9E0019C180 /* UIViewController+Router.h */,
+				33A995841C200E9E0019C180 /* UIViewController+Router.m */,
+			);
+			name = KSRouter;
+			path = ../../KSRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33A9954F1C1FFC5F0019C180 /* KSRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A995671C1FFC5F0019C180 /* Build configuration list for PBXNativeTarget "KSRouter" */;
+			buildPhases = (
+				33A9954C1C1FFC5F0019C180 /* Sources */,
+				33A9954D1C1FFC5F0019C180 /* Frameworks */,
+				33A9954E1C1FFC5F0019C180 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSRouter;
+			productName = KSRouterExample;
+			productReference = 33A995501C1FFC5F0019C180 /* KSRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33A995481C1FFC5F0019C180 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Krin-San";
+				TargetAttributes = {
+					33A9954F1C1FFC5F0019C180 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 33A9954B1C1FFC5F0019C180 /* Build configuration list for PBXProject "KSRouterExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33A995471C1FFC5F0019C180;
+			productRefGroup = 33A995511C1FFC5F0019C180 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33A9954F1C1FFC5F0019C180 /* KSRouter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33A9954E1C1FFC5F0019C180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A995631C1FFC5F0019C180 /* LaunchScreen.storyboard in Resources */,
+				33A995601C1FFC5F0019C180 /* Assets.xcassets in Resources */,
+				33A9955E1C1FFC5F0019C180 /* Main.storyboard in Resources */,
+				33A995731C1FFE2F0019C180 /* Sidebar.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33A9954C1C1FFC5F0019C180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A995881C200E9E0019C180 /* UIViewController+Router.m in Sources */,
+				33A995581C1FFC5F0019C180 /* AppDelegate.m in Sources */,
+				33A995851C200E9E0019C180 /* KSRouterItem.m in Sources */,
+				33A995871C200E9E0019C180 /* KSRouterSegue.m in Sources */,
+				33A995711C1FFD940019C180 /* MainViewController.m in Sources */,
+				33F2699B1C2027770032BA8C /* SidebarEmbedPanel.m in Sources */,
+				33A995551C1FFC5F0019C180 /* main.m in Sources */,
+				33A995861C200E9E0019C180 /* KSRouterNavigationController.m in Sources */,
+				33F269981C201F2A0032BA8C /* SidebarItems.m in Sources */,
+				33A995761C1FFFED0019C180 /* SidebarViewController.m in Sources */,
+				33A995791C2000110019C180 /* SidebarRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33A9955C1C1FFC5F0019C180 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A9955D1C1FFC5F0019C180 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33A995611C1FFC5F0019C180 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A995621C1FFC5F0019C180 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33A995651C1FFC5F0019C180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33A995661C1FFC5F0019C180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33A995681C1FFC5F0019C180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSRouterExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krin-san.KSRouterExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33A995691C1FFC5F0019C180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSRouterExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krin-san.KSRouterExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33A9954B1C1FFC5F0019C180 /* Build configuration list for PBXProject "KSRouterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A995651C1FFC5F0019C180 /* Debug */,
+				33A995661C1FFC5F0019C180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A995671C1FFC5F0019C180 /* Build configuration list for PBXNativeTarget "KSRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A995681C1FFC5F0019C180 /* Debug */,
+				33A995691C1FFC5F0019C180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33A995481C1FFC5F0019C180 /* Project object */;
+}
