@@ -25,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33271C671C20542300A65A40 /* KSRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSRouter.h; sourceTree = "<group>"; };
 		33A995501C1FFC5F0019C180 /* KSRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A995541C1FFC5F0019C180 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33A995561C1FFC5F0019C180 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 		33A9957C1C200E9E0019C180 /* KSRouter */ = {
 			isa = PBXGroup;
 			children = (
+				33271C671C20542300A65A40 /* KSRouter.h */,
 				33A9957D1C200E9E0019C180 /* KSRouterItem.h */,
 				33A9957E1C200E9E0019C180 /* KSRouterItem.m */,
 				33A9957F1C200E9E0019C180 /* KSRouterNavigationController.h */,
