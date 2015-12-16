@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "KSRouterNavigationController.h"
+#import "KSRouter.h"
 
 static NSString * const kSidebarRouter = @"sidebar";
 
