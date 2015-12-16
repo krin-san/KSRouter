@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "KSRouter"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "UINavigationController wrapper with more logical way of viewControllers routing"
   s.description  = <<-DESC
                    KSRouter is a wrapper around UINavigationController which helps you to prototype the UI of your app and manage it's segues. Check out the example project for details.
